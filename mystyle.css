@@ -1,0 +1,161 @@
+/*Body style*/
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    background:linear-gradient(rgb(255, 255, 255), #e6e6e6);
+    color:  #2e2d2d; /*Body color text*/
+}
+
+/* Header */
+.header {
+    padding: 93px;
+    text-align: right;
+    color: #0e0d0d;
+    font-size: 15px; 
+    background: url(header.png);
+    border-bottom: 1px solid rgb(6, 143, 207);   
+}
+/* Logo */ 
+.logo {
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    position:absolute;
+    left:50px; top:10px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer; 
+}
+
+.Menu {
+    list-style:none;
+    position:absolute;
+    left:1px; top:130px;
+    font-size: 16px;
+}
+
+.Menu a {
+    color:rgb(0, 0, 0) ;
+    background:linear-gradient(rgb(251, 135, 2),rgb(251, 185, 2));
+    height: 55px;
+    width: 150px;
+    border:1px solid rgb(6, 143, 207);
+    text-align: center;
+    line-height:50px ;
+    float: left;    
+    text-decoration:none;
+    
+}
+.Menu a:hover {
+    background-color: rgb(20, 17, 17);
+    cursor: pointer;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.Menu a.active {
+    background:linear-gradient(rgb(6, 3, 177),rgb(2, 160, 251));
+    color:rgb(0, 0, 0) ;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+/* Footer*/
+.myfooter {
+    padding: 10px;
+    text-align: center;
+    background: #072cff;
+    color: #f0ecec;
+    font-size: 13px;
+    
+}
+/* Sitemap Color Link*/
+#Sitemap { color: #cccaca; }
+
+/* Contact form web page*/
+#MyInput[type=text],
+#MyTextArea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-color: #0b4eeb;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/*Buttons*/
+input[type=submit] {
+    background-color: #0f2baa;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+/*Button when it is hovered*/
+input[type=submit]:hover {
+    background-color: #0942ff;
+    transform: scale(1.2);
+    color: black;
+}
+
+.My_form {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    color: rgb(5, 5, 5);
+    text-align: left;
+}
+/* This is the div of the Quiz*/
+div.quiz {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    border: 1px solid #0b4eeb;
+    border-radius: 10px;
+    background:rgb(255, 255, 255);
+    text-align: left;
+  }
+
+/* Name box of Quiz Page*/
+#MyInput2[type=text]{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-color: #0b4eeb;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+/* Result div*/
+#result {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    border: 1px solid #0b4eeb;
+    border-radius: 10px;
+    background:rgb(196, 44, 247);
+    text-align: center;
+    color: white;
+  }

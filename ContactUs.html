@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact me</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="header">
+        <!--LOGO-->
+        <div class="logo" onclick="window.location.href='Index.html'">
+        </div>
+    </div>
+    <!--NAVIGATION BAR-->
+    <div class="Menu">
+        <a href="index.html">Home</a>
+        <a href="Quiz.html">Quiz</a>
+        <a class="active" href="ContactUs.html">Contact</a>
+            
+    </div>
+
+    <!--CONTENT-->
+    <div style="padding-top: 25px;">
+        <h2>I'd love know your experience in this Quiz site!</h2>
+    </div>
+    <div class="My_form">
+
+        <form action="mailto:davuror@outlook.es?subject=New Website Feedback!" method="post" enctype="text/plain">
+            Name and surname:<br>
+            <input placeholder="Your name and surname here.." type="text" name="Name" id ="MyInput"><br>
+            E-mail:<br>
+            <input placeholder="Your E-mail here..." type="text" name="e-mail" id ="MyInput"><br>
+
+            <p> How difficult was the artificial intelligence quiz?</p>
+            <input type="radio" name="Quiz Site Rate" value="Extremely difficult">
+            <label> Extremely difficult</label><br>
+            <input type="radio" name="Quiz Site Rate" value="Difficult">
+            <label> Difficult</label><br>
+            <input type="radio" name="Quiz Site Rate" value="Not difficult">
+            <label> Not difficult</label><br>
+            <input type="radio" name="Quiz Site Rate" value="Easy">
+            <label> Easy</label><br>
+            <input type="radio" name="Quiz Site Rate" value="Extremely difficult">
+            <label> Extremely difficult</label><br>
+
+            <p></p>
+            Would you like to leave me a comment to improve the quiz site? <br>
+            <textarea placeholder="Your comment here.." rows="5" name="Comment" id="MyTextArea"></textarea>
+            <p></p>
+            <input type="submit" value="Send Feedback">
+
+        </form>
+    </div>
+
+    <!--FOOTER-->
+  <div class="myfooter">
+    <p> David Urraca Ordiz | Edinburgh Napier University | Copyright &copy; 2022 | <a id ="Sitemap" 
+      href="sitemap.html">Sitemap </p>
+</div>
+
+</body>
+
+</html>
