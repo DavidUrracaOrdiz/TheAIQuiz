@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+  <!--HEADER-->
+  <div class="header">
+    <!--LOGO-->
+    <div class="logo" onclick="window.location.href='Index.html'">
+    </div>
+  </div>
+
+  <!--NAVIGATION BAR-->
+  <div class="Menu">
+    <a href="index.html">Home</a>
+    <a class="active" href="quiz.html">Quiz</a>
+    <a href="contactUs.html">Contact</a>
+  </div>
+
+  <script src ="MyAnswers.js" >
+  </script>  
+
+  <div style="padding-top: 10px;">
+    <h2> Take this quiz and discover how much do you know about artificial intelligence</h2>
+  </div>
+  
+  <!--QUIZ-->
+  <div class="quiz">
+      <form name ="MyQuiz" onsubmit ="return CheckAnswers()">
+
+      First of all, please write your name:<br>
+      <input placeholder="Your name here.." type="text" name="Name_Quiz" id ="MyInput2"><br>
+      
+      <p> 1. Convolutional Neuronal Networks are successfully used for image recognition and 
+              natural language processing tasks.</p>
+      <input type ="radio" name ="a1" value = "a"> a) True <br/>
+      <input type ="radio" name ="a1" value = "b"> b) False <br/>
+
+      <p> 2. Machine learning is a branch of artificial intelligence that trains computers to 
+              perform tasks imitating human behavior.</p>
+      <input type ="radio" name ="a2" value = "a"> a) True <br/>
+      <input type ="radio" name ="a2" value = "b"> b) False <br/>
+
+      <p> 3. Reinforcement learning algorithms learn from labeled data to make predictions.</p>
+      <input type ="radio" name ="a3" value = "a"> a) True <br/>
+      <input type ="radio" name ="a3" value = "b"> b) False <br/>
+
+      <p> 4. Reinforcement learning algorithms tend to find optimal solutions using minimal 
+              computational power.</p>
+      <input type ="radio" name ="a4" value = "a"> a) True <br/>
+      <input type ="radio" name ="a4" value = "b"> b) False <br/>
+
+      <p> 5. The Turing test was developed in 1950 by Alan Turing to determine whether a 
+              machine can behave as a human being.</p>
+      <input type ="radio" name ="a5" value = "a"> a) True <br/>
+      <input type ="radio" name ="a5" value = "b"> b) False <br/>
+
+      <p> 6. The Global Position Systems (GPS) use search algorithms to find the best routes.</p>
+      <input type ="radio" name ="a6" value = "a"> a) True <br/>
+      <input type ="radio" name ="a6" value = "b"> b) False <br/>
+
+      <p> 7. Informed search algorithms tend to find optimal solutions using little 
+            computational power. </p>
+      <input type ="radio" name ="a7" value = "a"> a) True <br/>
+      <input type ="radio" name ="a7" value = "b"> b) False <br/>
+
+      <p> 8. In the evaluation of a Machine Learning model, accuracy represents the percentage 
+            of correct predictions.</p>
+      <input type ="radio" name ="a8" value = "a"> a) True <br/>
+      <input type ="radio" name ="a8" value = "b"> b) False <br/>
+
+      <p> 9. In machine learning, regression models can be applied to predict stock values.</p>
+      <input type ="radio" name ="a9" value = "a"> a) True <br/>
+      <input type ="radio" name ="a9" value = "b"> b) False <br/>
+
+      <p> 10. Logistic regression algorithms are used to perform classification tasks.</p>
+      <input type ="radio" name ="a10" value = "a"> a) True <br/>
+      <input type ="radio" name ="a10" value = "b"> b) False <br/>
+
+      <p> </p>
+
+      <input type ="submit" value ="Get results!"> 
+      </form>
+    
+  </div>  
+
+  <!--SHOWS THE RESULT-->
+  <div id="result" style="display:none;"> </div>  
+  <p> </p>
+
+  <!--FOOTER-->
+  <div class="myfooter">
+    <p> David Urraca Ordiz | Edinburgh Napier University | Copyright &copy; 2022 | <a id ="Sitemap" 
+      href="sitemap.html">Sitemap </p>
+</div>
+
+</body>
+</html>
