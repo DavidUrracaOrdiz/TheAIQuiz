@@ -2,8 +2,8 @@ function CheckAnswers(){
 
     // Let's store the user name in a new variable
     var Cookie_User_Name = MyQuiz["Name_Quiz"].value;
-    // And now, let's create a Cookie that will store the user name.
-    document.cookie ="User Name =" + Cookie_User_Name;
+    // And now, let's create a Cookie that will store the user name (Expire when the browser closes).
+    document.cookie ="User_Name =" + Cookie_User_Name;
 
     // List of correct answers.
     var answers = ["a","a","b","b","a","a","a","a","a","a"];
@@ -53,3 +53,4 @@ function CheckAnswers(){
     }
     return false;
 }
+
